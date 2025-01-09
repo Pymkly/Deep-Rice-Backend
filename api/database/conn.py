@@ -1,12 +1,13 @@
 import psycopg2
 
 import common
+from config import *
 
 
 def get_conn():
     return psycopg2.connect(
-        host=common.HOST,
-        database=common.DATABASE,
-        user=common.USER,
-        password=common.PASSWORD
+        host=HOST,
+        database=DATABASE,
+        user=USER,
+        password=PASSWORD
     )

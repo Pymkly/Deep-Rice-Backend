@@ -3,6 +3,9 @@ from tensorflow.keras import models, layers
 
 import tensorflow as tf
 
+from config import MODEL_PATH
+
+
 def load_train_data():
     return common.load_data()
 
@@ -31,4 +34,4 @@ def fit_model(_train_data, _test_data):
 if __name__ == "__main__":
     train_data, val_data, test_data = load_train_data()
     model, history = fit_model(train_data, test_data)
-    common.persist_model(model, common.MODEL_PATH)
+    common.persist_model(model, MODEL_PATH)
