@@ -6,7 +6,9 @@ from fastapi import  UploadFile
 
 from typing import List
 
-model = common.load_model(common.MODEL_PATH)
+from config import MODEL_PATH
+
+model = common.load_model(MODEL_PATH)
 #
 async def predict_disease_on_images(files_: List[UploadFile]):
     response_ = {

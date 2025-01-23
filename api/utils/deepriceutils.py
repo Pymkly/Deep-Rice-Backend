@@ -1,6 +1,9 @@
+import os
 import time
 from typing import List
 from fastapi import UploadFile, File
+def get_pdf_files(directory):
+    return [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(".pdf")]
 
 def readable_polygone(boundary_wkt):
     if boundary_wkt.startswith("POLYGON"):
