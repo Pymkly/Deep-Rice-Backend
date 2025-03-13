@@ -1,0 +1,8 @@
+### PDF section
+- voici les informations sur les pdf enregistrées.
+- Il sont généralement des rapport ou article scientifique.
+- il faut plus considéré ces informations par rapport aux autres.
+```
+{content}
+```
+### FIN PDF section

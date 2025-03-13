@@ -1,10 +1,10 @@
 import psycopg2
 
-import common
 from api.database.conn import get_conn
 from api.disease.disease import get_all_diseases
-from api.lands.lands import get_land_data, get_land_data_with_cursor
+from api.lands.lands import get_land_data_with_cursor
 from api.utils.deepriceutils import readable_point
+
 
 def get_drone_report_with_details_without_con(report_id):
     conn = None
@@ -26,6 +26,15 @@ def get_drone_report_with_details_without_con(report_id):
             cursor.close()
         if conn:
             conn.close()
+    return response
+
+def drone_report_one(report_id, cursor):
+    report = get_drone_report_with_details(report_id, cursor)
+    land = get_land_data_with_cursor(1, cursor)
+    response = {
+        'report': report,
+        'land': land
+    }
     return response
 
 def get_drone_report_with_details(report_id, cursor):

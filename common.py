@@ -6,32 +6,17 @@ import psycopg2
 import tensorflow as tf
 import numpy as np
 
-
+from config import ROOT_DIR, DB_PATH
+from tensorflow.keras.applications.resnet50 import preprocess_input
 
 # project root
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-CONFIG_PATH = os.path.join(ROOT_DIR, 'config.ini')
 
-# Using INI configuration file
-from configparser import ConfigParser
-
-config = ConfigParser()
-config.read(CONFIG_PATH)
-DB_PATH = str(config.get("PATHS", "DB_PATH"))
-MODEL_PATH = str(config.get("PATHS", "MODEL_PATH"))
-RANDOM_STATE = int(config.get("ML", "RANDOM_STATE"))
-TARGET_NAME = str(config.get("ML", "TARGET_NAME"))
-
-HOST = str(config.get("POSTGRESQL", "HOST"))
-DATABASE = str(config.get("POSTGRESQL", "DATABASE"))
-USER = str(config.get("POSTGRESQL", "USER"))
-PASSWORD = str(config.get("POSTGRESQL", "PASSWORD"))
 
 _root = "./data"
 train_directory = f"{_root}/train"
 val_directory = f"{_root}/val"
 test_directory = f"{_root}/test"
-IMG_SIZE = (256,256)
+IMG_SIZE = (224,224)
 BATCH = 32
 
 
@@ -74,18 +59,21 @@ def load_data():
     train_data = tf.keras.preprocessing.image_dataset_from_directory(
         directory=train_directory,
         image_size=IMG_SIZE,
-        batch_size=BATCH
+        batch_size=BATCH,
+        label_mode='categorical'
     )
     val_data = tf.keras.preprocessing.image_dataset_from_directory(
         directory=val_directory,
         image_size=IMG_SIZE,
-        batch_size=BATCH
+        batch_size=BATCH,
+        label_mode='categorical'
     )
 
     test_data = tf.keras.preprocessing.image_dataset_from_directory(
         directory=test_directory,
         image_size=IMG_SIZE,
-        batch_size=BATCH
+        batch_size=BATCH,
+        label_mode='categorical'
     )
     return train_data, val_data, test_data
 
@@ -107,7 +95,7 @@ def load_model(path):
     return model
 
 
-def preprocess_image_for_prediction(image_path, img_size=(256, 256)):
+def preprocess_image_for_prediction(image_path, img_size=IMG_SIZE):
     """
     Prépare une image pour la prédiction, en la redimensionnant et en la normalisant.
 
@@ -125,6 +113,6 @@ def preprocess_image_for_prediction(image_path, img_size=(256, 256)):
     image_array = np.expand_dims(image_array, axis=0)
 
     # Normaliser les valeurs des pixels (similaire au traitement des datasets)
-    image_array = image_array / 255.0
-
+    # image_array = image_array / 255.0
+    image_array = preprocess_input(image_array)
     return image_array
