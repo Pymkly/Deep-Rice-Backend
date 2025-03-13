@@ -4,3 +4,6 @@
 /.venv/
 /.idea/
 /__pycache__
+/deep_rice_env/
+/chroma_db/
+/tensorflow_env/

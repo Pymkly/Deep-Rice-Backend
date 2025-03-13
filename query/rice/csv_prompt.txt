@@ -1,0 +1,9 @@
+### CSV section
+- ces donnés sont issues de fichier CSV
+- il faut les prendre en compte pour :
+    + faire des estimation
+    + prédire quelque chose en se basant sur les données fournit par ces csv
+```
+{content}
+```
+### fin CSV section

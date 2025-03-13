@@ -1,0 +1,5 @@
+-- INSERT INTO documents (content, embedding)
+-- VALUES (
+--     'Exemple de document',
+--     '[0.12, 0.85, -0.34, 0.97]'::vector
+-- );

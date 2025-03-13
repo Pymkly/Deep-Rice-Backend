@@ -10,12 +10,12 @@ from config import MODEL_PATH
 
 model = common.load_model(MODEL_PATH)
 #
-async def predict_disease_on_images(files_: List[UploadFile]):
+async def predict_disease_on_images(files_: List[UploadFile], cursor):
     response_ = {
         'individual_results' : []
     }
     for file in files_:
-        print("manomboka")
+        print("Started")
         # Sauvegarder chaque image
         unique_filename = f"{int(time.time())}_{file.filename}"
         file_location = f"uploads/{unique_filename}"
@@ -23,8 +23,9 @@ async def predict_disease_on_images(files_: List[UploadFile]):
             content = await file.read()
             f.write(content)
         predicted_class, probabilities = predict_disease(file_location)
-        label_, disease_, diseases_ = common.get_classes_db_without_cursor(int(predicted_class))
-
+        # label_, disease_, diseases_ = common.get_classes_db_without_cursor(int(predicted_class))
+        _index = int(predicted_class)
+        label_, disease_, diseases_ = common.get_classes_db(cursor=cursor, _index=_index)
         response_['individual_results'].append({
             'predicted_class': label_,
             'predicted_class_': disease_,
@@ -39,5 +40,5 @@ async def predict_disease_on_images(files_: List[UploadFile]):
 def predict_disease(_path):
     processed_image = common.preprocess_image_for_prediction(_path, common.IMG_SIZE)
     predictions = model.predict(processed_image)
-    predicted_class = np.argmax(predictions, axis=1)  # Obtenir la classe avec la probabilité la plus élevée
-    return predicted_class[0], predictions[0]
+    predicted_class = np.argmax(predictions, axis=1)[0]  # Obtenir la classe avec la probabilité la plus élevée
+    return predicted_class, predictions[0]

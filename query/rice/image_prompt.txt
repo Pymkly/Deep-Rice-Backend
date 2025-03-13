@@ -1,0 +1,9 @@
+### IMAGE TEXT section
+- Ces informations proviennent de textes extraits d'images via OCR.
+- Ces images peuvent être des affiches, des documents scannés ou des annotations manuelles.
+- Il faut faire attention aux éventuelles erreurs d'extraction dues à la qualité de l'image.
+- Ces informations peuvent compléter d'autres sources, notamment les PDF et CSV.
+```
+{content}
+```
+### FIN IMAGE TEXT section

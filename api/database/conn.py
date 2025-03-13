@@ -1,8 +1,6 @@
 import psycopg2
 from pymongo import MongoClient
-from config import MONGODB_DATABASE
 
-import common
 from config import *
 
 
