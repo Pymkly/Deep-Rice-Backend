@@ -62,7 +62,7 @@ class RiceAgent(DocumentGenerator):
         self.llm = HuggingFaceEndpoint(repo_id="mistralai/Mistral-Nemo-Instruct-2407")
 
     def init_encoder(self):
-        self.encoder = SentenceTransformer('all-mpnet-base-v2')
+        self.encoder = SentenceTransformer('all-mpnet-base-v2', trust_remote_code=True)
 
     def save_documents(self):
         for handler in self.handlers:

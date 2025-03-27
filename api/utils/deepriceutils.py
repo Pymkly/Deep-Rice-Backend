@@ -10,6 +10,18 @@ with open("pass.json") as config_file:
 
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg"}
 
+def get_global_config():
+    with open("global_config.json", 'r') as file:
+        global_config = json.load(file)
+        return global_config
+
+def get_config_by_key(_key):
+    global_config = get_global_config()
+    return global_config[_key]
+
+def get_sensor_collections():
+    return get_config_by_key("SENSOR_COLLECTIONS")
+
 # Fonctions
 def allowed_images(filename: str) -> bool:
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS

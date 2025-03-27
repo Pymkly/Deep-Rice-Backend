@@ -22,7 +22,7 @@ USER = str(config.get("POSTGRESQL", "USER"))
 PASSWORD = str(config.get("POSTGRESQL", "PASSWORD"))
 
 MONGODB_DATABASE = str(config.get("MONGODB", "DATABASE"))
-
+SENSOR_COLLECTION = str(config.get("MONGODB", "SENSOR_COLLECTION"))
 
 PROMPT_TEMPLATE = str(config.get("QUERY", "PROMPT_TEMPLATE"))
 RICE_PDF_TEMPLATE = str(config.get("RICE_TEMPLATE", "PDF_TEMPLATE"))

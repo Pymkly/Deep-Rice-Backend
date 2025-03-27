@@ -13,7 +13,7 @@ def get_conn():
     )
 
 def get_mongo_db():
-    client = MongoClient("mongodb://localhost:27017/")
+    client = MongoClient("mongodb://root:root@127.0.0.1:27017/")
     # Création d'une base et d'une collection
     db = client[MONGODB_DATABASE]
-    return db
+    return client, db

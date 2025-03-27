@@ -1,0 +1,7 @@
+exit
+})
+    roles: [{ role: "root", db: "admin" }]
+    pwd: "root",
+    user: "root",
+use admin
+exit

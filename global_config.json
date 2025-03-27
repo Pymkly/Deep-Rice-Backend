@@ -1,0 +1,3 @@
+{
+  "SENSOR_COLLECTIONS" : ["DHT22Sensor","SoilSensor"]
+}
