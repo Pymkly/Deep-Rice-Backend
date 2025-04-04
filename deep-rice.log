@@ -16659,3 +16659,9 @@
 2025-03-27 09:11:33,257 - INFO - 1 change detected
 2025-03-27 09:11:33,615 - INFO - 1 change detected
 2025-03-27 09:11:35,242 - INFO - 3 changes detected
+2025-04-04 09:04:40,986 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:04:40.986867'}
+2025-04-04 09:04:43,574 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:04:43.574035'}
+2025-04-04 09:05:44,013 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:05:44.013859'}
+2025-04-04 09:05:44,092 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:05:44.092261'}
+2025-04-04 09:05:44,152 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:05:44.152535'}
+2025-04-04 09:05:44,220 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:05:44.220322'}

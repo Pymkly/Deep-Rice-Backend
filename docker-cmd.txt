@@ -1,8 +1,8 @@
 docker build . -t deep-rice-postgres:0.0.1
 docker volume create pg_data
 
-docker run -d --name deep-rice-backend -e POSTGRES_USER=admin  -e POSTGRES_PASSWORD=root  -e POSTGRES_DB=rag_db  -p 5432:5432  -v pg_data:/var/lib/postgresql/data  -it deep-rice-backend:0.0.1
-docker run -d --name deep-rice-backend -e POSTGRES_USER=admin  -e POSTGRES_PASSWORD=root  -e POSTGRES_DB=rag_db  -p 5432:5432  -v pg_data:/var/lib/postgresql/data  -it deep-rice-backend:0.0.1
+docker run -d --name deep-rice-postgres -e POSTGRES_USER=admin  -e POSTGRES_PASSWORD=root  -e POSTGRES_DB=rag_db  -p 5432:5432  -v pg_data:/var/lib/postgresql/data  -it deep-rice-postgres:0.0.1
+docker run -d --name deep-rice-postgres -e POSTGRES_USER=admin  -e POSTGRES_PASSWORD=root  -e POSTGRES_DB=rag_db  -p 5432:5432  -v pg_data:/var/lib/postgresql/data  -it deep-rice-postgres:0.0.1
 
 CREATE ROLE postgres WITH LOGIN PASSWORD 'secret' SUPERUSER;
 ALTER USER postgres WITH PASSWORD 'postgres';
