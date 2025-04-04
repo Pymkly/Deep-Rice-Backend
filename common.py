@@ -11,6 +11,7 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 
 # project root
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 _root = "./data"
 train_directory = f"{_root}/train"

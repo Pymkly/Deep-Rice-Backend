@@ -7,3 +7,5 @@
 /deep_rice_env/
 /chroma_db/
 /tensorflow_env/
+/mongo_data/
+*.pyc
