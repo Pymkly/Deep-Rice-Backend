@@ -9,5 +9,4 @@
 /tensorflow_env/
 /mongo_data/
 *.pyc
-mongo_data/diagnostic.data/metrics.interim
-mongo_data/journal/WiredTigerLog.0000000009
+/mongo_data/
