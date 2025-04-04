@@ -13,10 +13,6 @@ from langchain_community.llms import HuggingFaceEndpoint
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_api_token()
 
-
-
-
-
 class RiceAgent(DocumentGenerator):
     """
         Agent qui récupère automatiquement les informations depuis toutes les sources (PDF, CSV, DOCX...).
@@ -37,7 +33,6 @@ class RiceAgent(DocumentGenerator):
         self.init_lln()
         self.init_handler()
 
-
     def init_handler(self):
         self.handlers = [PDFHandler(self.encoder), CSVHandler(self.encoder), ImageHandler(self.encoder)]
         self.handlers_map = {handler.key(): handler for handler in self.handlers}
@@ -57,7 +52,6 @@ class RiceAgent(DocumentGenerator):
             raise ValueError(f"Aucun handler ne prend en charge ce type de fichier : {file_path}")
         handler.process_file(cur, file_path)
 
-
     def init_lln(self):
         self.llm = HuggingFaceEndpoint(repo_id="mistralai/Mistral-Nemo-Instruct-2407")
 
@@ -71,7 +65,6 @@ class RiceAgent(DocumentGenerator):
     def ask(self, query, cur):
         """
                 Recherche des informations sur le riz en interrogeant toutes les sources disponibles.
-
                 :param query: Question posée par l'utilisateur
                 :param cur: Curseur PostgreSQL pour la recherche
                 :return: Réponse générée par le LLM + le prompt utilisé
