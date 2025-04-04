@@ -20332,3 +20332,688 @@
 2025-04-04 09:12:06,454 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.454516'}
 2025-04-04 09:12:06,514 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.514445'}
 2025-04-04 09:12:06,536 - INFO - 12 changes detected
+2025-04-04 09:12:06,573 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.573171'}
+2025-04-04 09:12:06,675 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.675635'}
+2025-04-04 09:12:06,738 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.738651'}
+2025-04-04 09:12:06,815 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.815114'}
+2025-04-04 09:12:06,888 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.888033'}
+2025-04-04 09:12:06,890 - INFO - 14 changes detected
+2025-04-04 09:12:06,972 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:06.972118'}
+2025-04-04 09:12:07,027 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:07.027301'}
+2025-04-04 09:12:07,096 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:07.096307'}
+2025-04-04 09:12:07,163 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:07.163227'}
+2025-04-04 09:12:07,233 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:07.233843'}
+2025-04-04 09:12:07,343 - INFO - 17 changes detected
+2025-04-04 09:12:07,344 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:07.344410'}
+2025-04-04 09:12:07,409 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:12:07.409744'}
+2025-04-04 09:12:07,654 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:07.654380'}
+2025-04-04 09:12:07,707 - INFO - 12 changes detected
+2025-04-04 09:12:07,736 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:07.736995'}
+2025-04-04 09:12:07,803 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:07.803339'}
+2025-04-04 09:12:07,860 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:07.860051'}
+2025-04-04 09:12:07,958 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:07.958290'}
+2025-04-04 09:12:08,023 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.023567'}
+2025-04-04 09:12:08,094 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.094449'}
+2025-04-04 09:12:08,111 - INFO - 16 changes detected
+2025-04-04 09:12:08,160 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.160231'}
+2025-04-04 09:12:08,229 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.229966'}
+2025-04-04 09:12:08,297 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.297221'}
+2025-04-04 09:12:08,376 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.376635'}
+2025-04-04 09:12:08,462 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.462002'}
+2025-04-04 09:12:08,477 - INFO - 9 changes detected
+2025-04-04 09:12:08,560 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.560414'}
+2025-04-04 09:12:08,627 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.627933'}
+2025-04-04 09:12:08,725 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.725571'}
+2025-04-04 09:12:08,828 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.828706'}
+2025-04-04 09:12:08,829 - INFO - 9 changes detected
+2025-04-04 09:12:08,895 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.895262'}
+2025-04-04 09:12:08,983 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:08.983504'}
+2025-04-04 09:12:09,151 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:09.151241'}
+2025-04-04 09:12:09,233 - INFO - 9 changes detected
+2025-04-04 09:12:09,339 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:09.339705'}
+2025-04-04 09:12:09,584 - INFO - 9 changes detected
+2025-04-04 09:12:09,605 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:09.605963'}
+2025-04-04 09:12:09,785 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:09.785521'}
+2025-04-04 09:12:09,913 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:09.913199'}
+2025-04-04 09:12:09,940 - INFO - 5 changes detected
+2025-04-04 09:12:09,994 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:09.994256'}
+2025-04-04 09:12:10,065 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.065584'}
+2025-04-04 09:12:10,153 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.152964'}
+2025-04-04 09:12:10,248 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.248072'}
+2025-04-04 09:12:10,294 - INFO - 9 changes detected
+2025-04-04 09:12:10,387 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.387229'}
+2025-04-04 09:12:10,475 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.475337'}
+2025-04-04 09:12:10,567 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.567245'}
+2025-04-04 09:12:10,653 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.653834'}
+2025-04-04 09:12:10,698 - INFO - 34 changes detected
+2025-04-04 09:12:10,736 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.736739'}
+2025-04-04 09:12:10,813 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.813925'}
+2025-04-04 09:12:10,888 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.888729'}
+2025-04-04 09:12:10,992 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:10.992044'}
+2025-04-04 09:12:11,062 - INFO - 1 change detected
+2025-04-04 09:12:11,084 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.084606'}
+2025-04-04 09:12:11,165 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.165548'}
+2025-04-04 09:12:11,268 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.268962'}
+2025-04-04 09:12:11,367 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.367624'}
+2025-04-04 09:12:11,417 - INFO - 1 change detected
+2025-04-04 09:12:11,440 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.440823'}
+2025-04-04 09:12:11,519 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.519298'}
+2025-04-04 09:12:11,608 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.608685'}
+2025-04-04 09:12:11,680 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.680053'}
+2025-04-04 09:12:11,756 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.756613'}
+2025-04-04 09:12:11,771 - INFO - 2 changes detected
+2025-04-04 09:12:11,842 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.841697'}
+2025-04-04 09:12:11,918 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.918321'}
+2025-04-04 09:12:11,990 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:11.990780'}
+2025-04-04 09:12:12,056 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.055958'}
+2025-04-04 09:12:12,124 - INFO - 2 changes detected
+2025-04-04 09:12:12,151 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.151278'}
+2025-04-04 09:12:12,241 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.241873'}
+2025-04-04 09:12:12,316 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.316998'}
+2025-04-04 09:12:12,378 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.378475'}
+2025-04-04 09:12:12,454 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.454323'}
+2025-04-04 09:12:12,477 - INFO - 1 change detected
+2025-04-04 09:12:12,545 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.545476'}
+2025-04-04 09:12:12,620 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.620611'}
+2025-04-04 09:12:12,696 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.696588'}
+2025-04-04 09:12:12,756 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.756615'}
+2025-04-04 09:12:12,827 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.827281'}
+2025-04-04 09:12:12,830 - INFO - 1 change detected
+2025-04-04 09:12:12,930 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.930370'}
+2025-04-04 09:12:12,985 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:12.985136'}
+2025-04-04 09:12:13,056 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.056520'}
+2025-04-04 09:12:13,119 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.119518'}
+2025-04-04 09:12:13,173 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.173950'}
+2025-04-04 09:12:13,183 - INFO - 1 change detected
+2025-04-04 09:12:13,243 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.243729'}
+2025-04-04 09:12:13,296 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.296183'}
+2025-04-04 09:12:13,381 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.381342'}
+2025-04-04 09:12:13,474 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.474793'}
+2025-04-04 09:12:13,537 - INFO - 1 change detected
+2025-04-04 09:12:13,550 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:12:13.550641'}
+2025-04-04 09:12:13,895 - INFO - 1 change detected
+2025-04-04 09:12:14,251 - INFO - 5 changes detected
+2025-04-04 09:12:18,703 - INFO - 1 change detected
+2025-04-04 09:12:19,521 - INFO - 1 change detected
+2025-04-04 09:12:22,004 - INFO - 6 changes detected
+2025-04-04 09:12:22,361 - INFO - 1 change detected
+2025-04-04 09:12:22,819 - INFO - 5 changes detected
+2025-04-04 09:12:23,842 - INFO - 3 changes detected
+2025-04-04 09:12:25,420 - INFO - 1 change detected
+2025-04-04 09:12:25,776 - INFO - 5 changes detected
+2025-04-04 09:12:26,895 - INFO - 1 change detected
+2025-04-04 09:12:27,255 - INFO - 1 change detected
+2025-04-04 09:12:29,777 - INFO - 1 change detected
+2025-04-04 09:12:32,055 - INFO - 5 changes detected
+2025-04-04 09:12:35,760 - INFO - 4 changes detected
+2025-04-04 09:12:36,275 - INFO - 9 changes detected
+2025-04-04 09:12:36,690 - INFO - 15 changes detected
+2025-04-04 09:12:37,352 - INFO - 1 change detected
+2025-04-04 09:12:40,385 - INFO - 1 change detected
+2025-04-04 09:12:47,685 - INFO - 1 change detected
+2025-04-04 09:12:52,649 - INFO - 4 changes detected
+2025-04-04 09:13:01,864 - INFO - 5 changes detected
+2025-04-04 09:13:03,856 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:03.856276'}
+2025-04-04 09:13:03,937 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:03.937246'}
+2025-04-04 09:13:03,996 - INFO - 1 change detected
+2025-04-04 09:13:04,007 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.007812'}
+2025-04-04 09:13:04,078 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.078362'}
+2025-04-04 09:13:04,140 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.139538'}
+2025-04-04 09:13:04,205 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.205205'}
+2025-04-04 09:13:04,258 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.258871'}
+2025-04-04 09:13:04,328 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.328840'}
+2025-04-04 09:13:04,351 - INFO - 1 change detected
+2025-04-04 09:13:04,391 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.391091'}
+2025-04-04 09:13:04,454 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.454052'}
+2025-04-04 09:13:04,530 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.530179'}
+2025-04-04 09:13:04,591 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.590793'}
+2025-04-04 09:13:04,679 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.678480'}
+2025-04-04 09:13:04,718 - INFO - 1 change detected
+2025-04-04 09:13:04,750 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.750509'}
+2025-04-04 09:13:04,820 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.820885'}
+2025-04-04 09:13:04,880 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.880504'}
+2025-04-04 09:13:04,934 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.934625'}
+2025-04-04 09:13:04,997 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:04.997498'}
+2025-04-04 09:13:05,074 - INFO - 1 change detected
+2025-04-04 09:13:05,172 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.172106'}
+2025-04-04 09:13:05,243 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.243285'}
+2025-04-04 09:13:05,311 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.311322'}
+2025-04-04 09:13:05,378 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.378789'}
+2025-04-04 09:13:05,429 - INFO - 1 change detected
+2025-04-04 09:13:05,447 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.447506'}
+2025-04-04 09:13:05,510 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.510213'}
+2025-04-04 09:13:05,590 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.590521'}
+2025-04-04 09:13:05,671 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.671613'}
+2025-04-04 09:13:05,752 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.752916'}
+2025-04-04 09:13:05,784 - INFO - 1 change detected
+2025-04-04 09:13:05,817 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.817754'}
+2025-04-04 09:13:05,888 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.888506'}
+2025-04-04 09:13:05,962 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:05.962712'}
+2025-04-04 09:13:06,021 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.021039'}
+2025-04-04 09:13:06,095 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.095625'}
+2025-04-04 09:13:06,139 - INFO - 1 change detected
+2025-04-04 09:13:06,158 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.158312'}
+2025-04-04 09:13:06,218 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.218849'}
+2025-04-04 09:13:06,280 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.280331'}
+2025-04-04 09:13:06,333 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.333365'}
+2025-04-04 09:13:06,403 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.403000'}
+2025-04-04 09:13:06,487 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.487649'}
+2025-04-04 09:13:06,494 - INFO - 1 change detected
+2025-04-04 09:13:06,535 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.535870'}
+2025-04-04 09:13:06,599 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.599618'}
+2025-04-04 09:13:06,671 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.671152'}
+2025-04-04 09:13:06,731 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.731280'}
+2025-04-04 09:13:06,806 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.806538'}
+2025-04-04 09:13:06,847 - INFO - 1 change detected
+2025-04-04 09:13:06,867 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.867623'}
+2025-04-04 09:13:06,922 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.922431'}
+2025-04-04 09:13:06,996 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:06.996327'}
+2025-04-04 09:13:07,072 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.072850'}
+2025-04-04 09:13:07,122 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.122391'}
+2025-04-04 09:13:07,186 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.186420'}
+2025-04-04 09:13:07,198 - INFO - 1 change detected
+2025-04-04 09:13:07,243 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.243951'}
+2025-04-04 09:13:07,324 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.324181'}
+2025-04-04 09:13:07,386 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.386363'}
+2025-04-04 09:13:07,447 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.447114'}
+2025-04-04 09:13:07,505 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.505120'}
+2025-04-04 09:13:07,552 - INFO - 1 change detected
+2025-04-04 09:13:07,566 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.566181'}
+2025-04-04 09:13:07,634 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.634355'}
+2025-04-04 09:13:07,710 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.710643'}
+2025-04-04 09:13:07,772 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.772133'}
+2025-04-04 09:13:07,865 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.865946'}
+2025-04-04 09:13:07,916 - INFO - 5 changes detected
+2025-04-04 09:13:07,936 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:07.936024'}
+2025-04-04 09:13:08,015 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.015365'}
+2025-04-04 09:13:08,074 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.074226'}
+2025-04-04 09:13:08,137 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.137250'}
+2025-04-04 09:13:08,218 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.217817'}
+2025-04-04 09:13:08,276 - INFO - 1 change detected
+2025-04-04 09:13:08,280 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.280887'}
+2025-04-04 09:13:08,345 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.345141'}
+2025-04-04 09:13:08,429 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.429178'}
+2025-04-04 09:13:08,549 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.549574'}
+2025-04-04 09:13:08,615 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:13:08.615803'}
+2025-04-04 09:13:08,635 - INFO - 1 change detected
+2025-04-04 09:13:08,875 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:08.875380'}
+2025-04-04 09:13:08,949 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:08.949687'}
+2025-04-04 09:13:09,000 - INFO - 1 change detected
+2025-04-04 09:13:09,029 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.029826'}
+2025-04-04 09:13:09,093 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.093353'}
+2025-04-04 09:13:09,159 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.159440'}
+2025-04-04 09:13:09,225 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.225771'}
+2025-04-04 09:13:09,292 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.292165'}
+2025-04-04 09:13:09,355 - INFO - 2 changes detected
+2025-04-04 09:13:09,358 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.357936'}
+2025-04-04 09:13:09,448 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.448917'}
+2025-04-04 09:13:09,493 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.493995'}
+2025-04-04 09:13:09,570 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.570245'}
+2025-04-04 09:13:09,636 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.636652'}
+2025-04-04 09:13:09,688 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.688625'}
+2025-04-04 09:13:09,708 - INFO - 1 change detected
+2025-04-04 09:13:09,772 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.772443'}
+2025-04-04 09:13:09,836 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.836621'}
+2025-04-04 09:13:09,899 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.899276'}
+2025-04-04 09:13:09,957 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:09.957805'}
+2025-04-04 09:13:10,014 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.014728'}
+2025-04-04 09:13:10,061 - INFO - 1 change detected
+2025-04-04 09:13:10,095 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.095258'}
+2025-04-04 09:13:10,157 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.157906'}
+2025-04-04 09:13:10,218 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.217246'}
+2025-04-04 09:13:10,287 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.287198'}
+2025-04-04 09:13:10,368 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.368471'}
+2025-04-04 09:13:10,415 - INFO - 1 change detected
+2025-04-04 09:13:10,423 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.423595'}
+2025-04-04 09:13:10,492 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.492890'}
+2025-04-04 09:13:10,563 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.562651'}
+2025-04-04 09:13:10,624 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.624466'}
+2025-04-04 09:13:10,704 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.704994'}
+2025-04-04 09:13:10,770 - INFO - 1 change detected
+2025-04-04 09:13:10,785 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.785173'}
+2025-04-04 09:13:10,844 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.844547'}
+2025-04-04 09:13:10,922 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.922309'}
+2025-04-04 09:13:10,994 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:10.994926'}
+2025-04-04 09:13:11,092 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.092275'}
+2025-04-04 09:13:11,123 - INFO - 6 changes detected
+2025-04-04 09:13:11,142 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.142707'}
+2025-04-04 09:13:11,215 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.215276'}
+2025-04-04 09:13:11,310 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.310836'}
+2025-04-04 09:13:11,359 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.359979'}
+2025-04-04 09:13:11,420 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.420343'}
+2025-04-04 09:13:11,476 - INFO - 1 change detected
+2025-04-04 09:13:11,485 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.485915'}
+2025-04-04 09:13:11,548 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.548854'}
+2025-04-04 09:13:11,615 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.615962'}
+2025-04-04 09:13:11,682 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.682110'}
+2025-04-04 09:13:11,737 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.737285'}
+2025-04-04 09:13:11,816 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.816389'}
+2025-04-04 09:13:11,830 - INFO - 1 change detected
+2025-04-04 09:13:11,867 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.867761'}
+2025-04-04 09:13:11,941 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:11.941810'}
+2025-04-04 09:13:12,036 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.036572'}
+2025-04-04 09:13:12,098 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.098033'}
+2025-04-04 09:13:12,160 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.160995'}
+2025-04-04 09:13:12,184 - INFO - 1 change detected
+2025-04-04 09:13:12,230 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.230121'}
+2025-04-04 09:13:12,331 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.331380'}
+2025-04-04 09:13:12,398 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.398585'}
+2025-04-04 09:13:12,476 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.476425'}
+2025-04-04 09:13:12,538 - INFO - 1 change detected
+2025-04-04 09:13:12,548 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.548977'}
+2025-04-04 09:13:12,622 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.622452'}
+2025-04-04 09:13:12,700 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.700252'}
+2025-04-04 09:13:12,774 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.774087'}
+2025-04-04 09:13:12,852 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.852451'}
+2025-04-04 09:13:12,892 - INFO - 1 change detected
+2025-04-04 09:13:12,944 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:12.944758'}
+2025-04-04 09:13:13,122 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.122024'}
+2025-04-04 09:13:13,178 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.178835'}
+2025-04-04 09:13:13,247 - INFO - 1 change detected
+2025-04-04 09:13:13,282 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.282105'}
+2025-04-04 09:13:13,393 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.393856'}
+2025-04-04 09:13:13,476 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.476296'}
+2025-04-04 09:13:13,541 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.541031'}
+2025-04-04 09:13:13,602 - INFO - 1 change detected
+2025-04-04 09:13:13,710 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.710101'}
+2025-04-04 09:13:13,794 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.794512'}
+2025-04-04 09:13:13,873 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:13.873500'}
+2025-04-04 09:13:13,960 - INFO - 1 change detected
+2025-04-04 09:13:14,963 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:13:14.963936'}
+2025-04-04 09:13:15,123 - INFO - 1 change detected
+2025-04-04 09:13:18,210 - INFO - 1 change detected
+2025-04-04 09:13:21,309 - INFO - 2 changes detected
+2025-04-04 09:13:21,660 - INFO - 2 changes detected
+2025-04-04 09:13:22,031 - INFO - 3 changes detected
+2025-04-04 09:13:22,398 - INFO - 1 change detected
+2025-04-04 09:13:23,118 - INFO - 1 change detected
+2025-04-04 09:13:23,484 - INFO - 5 changes detected
+2025-04-04 09:13:27,384 - INFO - 1 change detected
+2025-04-04 09:13:27,737 - INFO - 1 change detected
+2025-04-04 09:13:28,808 - INFO - 1 change detected
+2025-04-04 09:13:29,869 - INFO - 1 change detected
+2025-04-04 09:13:31,597 - INFO - 1 change detected
+2025-04-04 09:13:32,124 - INFO - 1 change detected
+2025-04-04 09:13:32,536 - INFO - 1 change detected
+2025-04-04 09:13:32,892 - INFO - 7 changes detected
+2025-04-04 09:13:33,254 - INFO - 3 changes detected
+2025-04-04 09:13:33,614 - INFO - 1 change detected
+2025-04-04 09:13:33,974 - INFO - 2 changes detected
+2025-04-04 09:13:34,379 - INFO - 5 changes detected
+2025-04-04 09:13:34,732 - INFO - 1 change detected
+2025-04-04 09:13:42,037 - INFO - 5 changes detected
+2025-04-04 09:13:42,399 - INFO - 1 change detected
+2025-04-04 09:13:47,152 - INFO - 2 changes detected
+2025-04-04 09:13:47,718 - INFO - 2 changes detected
+2025-04-04 09:13:48,490 - INFO - 1 change detected
+2025-04-04 09:13:50,562 - INFO - 1 change detected
+2025-04-04 09:13:52,610 - INFO - 1 change detected
+2025-04-04 09:13:53,214 - INFO - 5 changes detected
+2025-04-04 09:13:54,335 - INFO - 1 change detected
+2025-04-04 09:14:02,455 - INFO - 5 changes detected
+2025-04-04 09:14:05,268 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.268100'}
+2025-04-04 09:14:05,344 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.344411'}
+2025-04-04 09:14:05,393 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.393793'}
+2025-04-04 09:14:05,448 - INFO - 1 change detected
+2025-04-04 09:14:05,448 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.448271'}
+2025-04-04 09:14:05,506 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.506798'}
+2025-04-04 09:14:05,567 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.567331'}
+2025-04-04 09:14:05,625 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.625062'}
+2025-04-04 09:14:05,680 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.680300'}
+2025-04-04 09:14:05,734 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.734214'}
+2025-04-04 09:14:05,805 - INFO - 1 change detected
+2025-04-04 09:14:05,817 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.817358'}
+2025-04-04 09:14:05,905 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.905536'}
+2025-04-04 09:14:05,966 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:05.966403'}
+2025-04-04 09:14:06,026 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.026079'}
+2025-04-04 09:14:06,090 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.090652'}
+2025-04-04 09:14:06,157 - INFO - 1 change detected
+2025-04-04 09:14:06,232 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.232713'}
+2025-04-04 09:14:06,322 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.322450'}
+2025-04-04 09:14:06,432 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.432473'}
+2025-04-04 09:14:06,495 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.495408'}
+2025-04-04 09:14:06,512 - INFO - 1 change detected
+2025-04-04 09:14:06,607 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.607078'}
+2025-04-04 09:14:06,681 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.681200'}
+2025-04-04 09:14:06,814 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.814754'}
+2025-04-04 09:14:06,866 - INFO - 1 change detected
+2025-04-04 09:14:06,896 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.896006'}
+2025-04-04 09:14:06,953 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:06.953313'}
+2025-04-04 09:14:07,022 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.022446'}
+2025-04-04 09:14:07,140 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.140130'}
+2025-04-04 09:14:07,220 - INFO - 1 change detected
+2025-04-04 09:14:07,222 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.222573'}
+2025-04-04 09:14:07,328 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.328696'}
+2025-04-04 09:14:07,394 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.394681'}
+2025-04-04 09:14:07,466 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.466581'}
+2025-04-04 09:14:07,534 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.534894'}
+2025-04-04 09:14:07,573 - INFO - 1 change detected
+2025-04-04 09:14:07,605 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.605375'}
+2025-04-04 09:14:07,661 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.661705'}
+2025-04-04 09:14:07,731 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.730826'}
+2025-04-04 09:14:07,802 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.802308'}
+2025-04-04 09:14:07,858 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.858181'}
+2025-04-04 09:14:07,915 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.915129'}
+2025-04-04 09:14:07,925 - INFO - 1 change detected
+2025-04-04 09:14:07,983 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:07.983856'}
+2025-04-04 09:14:08,053 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.053977'}
+2025-04-04 09:14:08,122 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.122820'}
+2025-04-04 09:14:08,181 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.181214'}
+2025-04-04 09:14:08,260 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.260491'}
+2025-04-04 09:14:08,328 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.328730'}
+2025-04-04 09:14:08,393 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.393228'}
+2025-04-04 09:14:08,457 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.457921'}
+2025-04-04 09:14:08,480 - INFO - 1 change detected
+2025-04-04 09:14:08,544 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.544385'}
+2025-04-04 09:14:08,625 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.625136'}
+2025-04-04 09:14:08,699 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.699698'}
+2025-04-04 09:14:08,779 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.779379'}
+2025-04-04 09:14:08,897 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.897477'}
+2025-04-04 09:14:08,971 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:08.971874'}
+2025-04-04 09:14:09,045 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.045036'}
+2025-04-04 09:14:09,129 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.129463'}
+2025-04-04 09:14:09,138 - INFO - 1 change detected
+2025-04-04 09:14:09,269 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.269952'}
+2025-04-04 09:14:09,366 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.366836'}
+2025-04-04 09:14:09,444 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.444237'}
+2025-04-04 09:14:09,573 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.573362'}
+2025-04-04 09:14:09,647 - INFO - 1 change detected
+2025-04-04 09:14:09,665 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.665298'}
+2025-04-04 09:14:09,724 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.724876'}
+2025-04-04 09:14:09,801 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.801292'}
+2025-04-04 09:14:09,861 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.861005'}
+2025-04-04 09:14:09,975 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:09.975982'}
+2025-04-04 09:14:10,027 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.027676'}
+2025-04-04 09:14:10,137 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.137962'}
+2025-04-04 09:14:10,156 - INFO - 1 change detected
+2025-04-04 09:14:10,219 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.219826'}
+2025-04-04 09:14:10,306 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.306219'}
+2025-04-04 09:14:10,387 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.387272'}
+2025-04-04 09:14:10,493 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.493182'}
+2025-04-04 09:14:10,538 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.538428'}
+2025-04-04 09:14:10,598 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.598574'}
+2025-04-04 09:14:10,614 - INFO - 1 change detected
+2025-04-04 09:14:10,703 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:14:10.703149'}
+2025-04-04 09:14:10,889 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:10.889848'}
+2025-04-04 09:14:10,974 - INFO - 1 change detected
+2025-04-04 09:14:11,012 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.012030'}
+2025-04-04 09:14:11,083 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.083938'}
+2025-04-04 09:14:11,156 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.156751'}
+2025-04-04 09:14:11,224 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.224991'}
+2025-04-04 09:14:11,326 - INFO - 5 changes detected
+2025-04-04 09:14:11,329 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.329320'}
+2025-04-04 09:14:11,394 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.394147'}
+2025-04-04 09:14:11,455 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.455725'}
+2025-04-04 09:14:11,521 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.521972'}
+2025-04-04 09:14:11,584 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.584887'}
+2025-04-04 09:14:11,642 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.642203'}
+2025-04-04 09:14:11,735 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.735570'}
+2025-04-04 09:14:11,807 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.807595'}
+2025-04-04 09:14:11,865 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.865569'}
+2025-04-04 09:14:11,944 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:11.944059'}
+2025-04-04 09:14:12,035 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:12.035227'}
+2025-04-04 09:14:13,360 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.360909'}
+2025-04-04 09:14:13,434 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.434775'}
+2025-04-04 09:14:13,492 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.492176'}
+2025-04-04 09:14:13,567 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.567638'}
+2025-04-04 09:14:13,638 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.638350'}
+2025-04-04 09:14:13,747 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.747355'}
+2025-04-04 09:14:13,840 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.839956'}
+2025-04-04 09:14:13,894 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.893802'}
+2025-04-04 09:14:13,950 - INFO - 1 change detected
+2025-04-04 09:14:13,950 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:13.950723'}
+2025-04-04 09:14:14,047 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.047671'}
+2025-04-04 09:14:14,093 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.093728'}
+2025-04-04 09:14:14,214 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.214848'}
+2025-04-04 09:14:14,318 - INFO - 1 change detected
+2025-04-04 09:14:14,320 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.320251'}
+2025-04-04 09:14:14,385 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.385466'}
+2025-04-04 09:14:14,482 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.482475'}
+2025-04-04 09:14:14,533 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.533569'}
+2025-04-04 09:14:14,607 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.607344'}
+2025-04-04 09:14:14,678 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.678731'}
+2025-04-04 09:14:14,680 - INFO - 1 change detected
+2025-04-04 09:14:14,759 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.759248'}
+2025-04-04 09:14:14,818 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.818485'}
+2025-04-04 09:14:14,881 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.880702'}
+2025-04-04 09:14:14,944 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:14.944000'}
+2025-04-04 09:14:15,011 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.011891'}
+2025-04-04 09:14:15,036 - INFO - 1 change detected
+2025-04-04 09:14:15,083 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.083945'}
+2025-04-04 09:14:15,152 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.152459'}
+2025-04-04 09:14:15,229 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.229723'}
+2025-04-04 09:14:15,345 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.345864'}
+2025-04-04 09:14:15,410 - INFO - 1 change detected
+2025-04-04 09:14:15,419 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.419988'}
+2025-04-04 09:14:15,495 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.495290'}
+2025-04-04 09:14:15,590 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.590048'}
+2025-04-04 09:14:15,664 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.664999'}
+2025-04-04 09:14:15,762 - INFO - 1 change detected
+2025-04-04 09:14:15,848 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.848476'}
+2025-04-04 09:14:15,963 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:15.963492'}
+2025-04-04 09:14:16,062 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.062986'}
+2025-04-04 09:14:16,118 - INFO - 1 change detected
+2025-04-04 09:14:16,138 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.138025'}
+2025-04-04 09:14:16,248 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.248140'}
+2025-04-04 09:14:16,305 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.305656'}
+2025-04-04 09:14:16,380 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.380777'}
+2025-04-04 09:14:16,458 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.458871'}
+2025-04-04 09:14:16,472 - INFO - 2 changes detected
+2025-04-04 09:14:16,547 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.547488'}
+2025-04-04 09:14:16,622 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.622561'}
+2025-04-04 09:14:16,681 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.681327'}
+2025-04-04 09:14:16,758 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.758439'}
+2025-04-04 09:14:16,823 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.823599'}
+2025-04-04 09:14:16,824 - INFO - 1 change detected
+2025-04-04 09:14:16,882 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.882604'}
+2025-04-04 09:14:16,977 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:16.977768'}
+2025-04-04 09:14:17,052 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.052194'}
+2025-04-04 09:14:17,117 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.117970'}
+2025-04-04 09:14:17,177 - INFO - 1 change detected
+2025-04-04 09:14:17,177 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.177488'}
+2025-04-04 09:14:17,236 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.236691'}
+2025-04-04 09:14:17,304 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.304189'}
+2025-04-04 09:14:17,373 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.373634'}
+2025-04-04 09:14:17,466 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.466760'}
+2025-04-04 09:14:17,530 - INFO - 1 change detected
+2025-04-04 09:14:17,530 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:14:17.530845'}
+2025-04-04 09:14:17,887 - INFO - 1 change detected
+2025-04-04 09:14:18,447 - INFO - 2 changes detected
+2025-04-04 09:14:18,811 - INFO - 2 changes detected
+2025-04-04 09:14:19,380 - INFO - 1 change detected
+2025-04-04 09:14:23,077 - INFO - 5 changes detected
+2025-04-04 09:14:30,375 - INFO - 2 changes detected
+2025-04-04 09:14:30,841 - INFO - 1 change detected
+2025-04-04 09:14:31,255 - INFO - 3 changes detected
+2025-04-04 09:14:31,660 - INFO - 4 changes detected
+2025-04-04 09:14:32,016 - INFO - 4 changes detected
+2025-04-04 09:14:32,380 - INFO - 10 changes detected
+2025-04-04 09:14:32,740 - INFO - 1 change detected
+2025-04-04 09:14:38,965 - INFO - 1 change detected
+2025-04-04 09:14:43,627 - INFO - 5 changes detected
+2025-04-04 09:14:46,714 - INFO - 1 change detected
+2025-04-04 09:14:49,457 - INFO - 1 change detected
+2025-04-04 09:14:50,221 - INFO - 1 change detected
+2025-04-04 09:14:52,906 - INFO - 5 changes detected
+2025-04-04 09:14:57,402 - INFO - 1 change detected
+2025-04-04 09:14:59,649 - INFO - 1 change detected
+2025-04-04 09:15:04,965 - INFO - 5 changes detected
+2025-04-04 09:15:07,873 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:07.873318'}
+2025-04-04 09:15:07,979 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:07.979350'}
+2025-04-04 09:15:08,096 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.096039'}
+2025-04-04 09:15:08,153 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.153108'}
+2025-04-04 09:15:08,249 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.249181'}
+2025-04-04 09:15:08,344 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.344230'}
+2025-04-04 09:15:08,527 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.527403'}
+2025-04-04 09:15:08,594 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.594422'}
+2025-04-04 09:15:08,699 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:08.699254'}
+2025-04-04 09:15:09,360 - INFO - 1 change detected
+2025-04-04 09:15:09,777 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:09.777920'}
+2025-04-04 09:15:09,845 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:09.845130'}
+2025-04-04 09:15:09,904 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:09.904881'}
+2025-04-04 09:15:09,972 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:09.972480'}
+2025-04-04 09:15:10,059 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.059230'}
+2025-04-04 09:15:10,119 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.119107'}
+2025-04-04 09:15:10,180 - INFO - 1 change detected
+2025-04-04 09:15:10,206 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.206543'}
+2025-04-04 09:15:10,277 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.277882'}
+2025-04-04 09:15:10,344 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.344992'}
+2025-04-04 09:15:10,405 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.405512'}
+2025-04-04 09:15:10,550 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.550977'}
+2025-04-04 09:15:10,608 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.608750'}
+2025-04-04 09:15:10,685 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.685905'}
+2025-04-04 09:15:10,756 - INFO - 1 change detected
+2025-04-04 09:15:10,773 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.773002'}
+2025-04-04 09:15:10,836 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.835390'}
+2025-04-04 09:15:10,916 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.916895'}
+2025-04-04 09:15:10,988 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:10.988612'}
+2025-04-04 09:15:11,046 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.046527'}
+2025-04-04 09:15:11,113 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.113362'}
+2025-04-04 09:15:11,162 - INFO - 1 change detected
+2025-04-04 09:15:11,176 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.176583'}
+2025-04-04 09:15:11,245 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.245715'}
+2025-04-04 09:15:11,308 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.308558'}
+2025-04-04 09:15:11,388 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.388891'}
+2025-04-04 09:15:11,449 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.449887'}
+2025-04-04 09:15:11,524 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.523623'}
+2025-04-04 09:15:11,599 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.599713'}
+2025-04-04 09:15:11,627 - INFO - 1 change detected
+2025-04-04 09:15:11,670 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.670480'}
+2025-04-04 09:15:11,734 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.734264'}
+2025-04-04 09:15:11,817 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.817302'}
+2025-04-04 09:15:11,876 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.876295'}
+2025-04-04 09:15:11,959 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:11.959558'}
+2025-04-04 09:15:11,987 - INFO - 1 change detected
+2025-04-04 09:15:12,033 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.033109'}
+2025-04-04 09:15:12,122 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.122720'}
+2025-04-04 09:15:12,228 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.228354'}
+2025-04-04 09:15:12,312 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.312192'}
+2025-04-04 09:15:12,393 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.393177'}
+2025-04-04 09:15:12,398 - INFO - 4 changes detected
+2025-04-04 09:15:12,465 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.465688'}
+2025-04-04 09:15:12,523 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.523358'}
+2025-04-04 09:15:12,587 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.587909'}
+2025-04-04 09:15:12,698 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.698012'}
+2025-04-04 09:15:12,768 - INFO - 1 change detected
+2025-04-04 09:15:12,771 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.771649'}
+2025-04-04 09:15:12,860 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.860737'}
+2025-04-04 09:15:12,956 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:12.956125'}
+2025-04-04 09:15:13,048 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.048102'}
+2025-04-04 09:15:13,106 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.106509'}
+2025-04-04 09:15:13,131 - INFO - 1 change detected
+2025-04-04 09:15:13,172 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.172737'}
+2025-04-04 09:15:13,270 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.270813'}
+2025-04-04 09:15:13,337 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.337466'}
+2025-04-04 09:15:13,391 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.391049'}
+2025-04-04 09:15:13,452 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.452971'}
+2025-04-04 09:15:13,483 - INFO - 2 changes detected
+2025-04-04 09:15:13,511 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.511698'}
+2025-04-04 09:15:13,582 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.582356'}
+2025-04-04 09:15:13,650 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.650973'}
+2025-04-04 09:15:13,715 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.715304'}
+2025-04-04 09:15:13,785 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.785860'}
+2025-04-04 09:15:13,837 - INFO - 1 change detected
+2025-04-04 09:15:13,857 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.857904'}
+2025-04-04 09:15:13,920 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.920691'}
+2025-04-04 09:15:13,992 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:13.992163'}
+2025-04-04 09:15:14,060 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:14.060828'}
+2025-04-04 09:15:14,129 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:14.129090'}
+2025-04-04 09:15:14,189 - INFO - 1 change detected
+2025-04-04 09:15:14,195 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:14.195427'}
+2025-04-04 09:15:14,264 - INFO - data received{'type': 'DHT22', 'ref': 'POTO#0001', 'data': {'temperature': 22.1, 'humidity': 50.2}, 'timestamp': '2025-04-04T09:15:14.264168'}
+2025-04-04 09:15:14,543 - INFO - 1 change detected
+2025-04-04 09:15:14,608 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:14.608736'}
+2025-04-04 09:15:14,677 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:14.677126'}
+2025-04-04 09:15:14,742 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:14.742244'}
+2025-04-04 09:15:14,822 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:14.822208'}
+2025-04-04 09:15:14,879 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:14.879170'}
+2025-04-04 09:15:14,900 - INFO - 1 change detected
+2025-04-04 09:15:14,952 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:14.952518'}
+2025-04-04 09:15:15,014 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.014618'}
+2025-04-04 09:15:15,084 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.084097'}
+2025-04-04 09:15:15,149 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.149697'}
+2025-04-04 09:15:15,234 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.234863'}
+2025-04-04 09:15:15,267 - INFO - 1 change detected
+2025-04-04 09:15:15,315 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.315652'}
+2025-04-04 09:15:15,394 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.394699'}
+2025-04-04 09:15:15,460 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.460053'}
+2025-04-04 09:15:15,527 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.527533'}
+2025-04-04 09:15:15,621 - INFO - 1 change detected
+2025-04-04 09:15:15,630 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.630932'}
+2025-04-04 09:15:15,686 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.686983'}
+2025-04-04 09:15:15,758 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.758622'}
+2025-04-04 09:15:15,843 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.843548'}
+2025-04-04 09:15:15,931 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:15.931933'}
+2025-04-04 09:15:15,974 - INFO - 1 change detected
+2025-04-04 09:15:16,022 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.022927'}
+2025-04-04 09:15:16,098 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.098408'}
+2025-04-04 09:15:16,165 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.165338'}
+2025-04-04 09:15:16,328 - INFO - 6 changes detected
+2025-04-04 09:15:16,351 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.351357'}
+2025-04-04 09:15:16,417 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.417591'}
+2025-04-04 09:15:16,477 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.477728'}
+2025-04-04 09:15:16,559 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.559280'}
+2025-04-04 09:15:16,627 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.627528'}
+2025-04-04 09:15:16,678 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.678107'}
+2025-04-04 09:15:16,683 - INFO - 1 change detected
+2025-04-04 09:15:16,756 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.756012'}
+2025-04-04 09:15:16,814 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.814356'}
+2025-04-04 09:15:16,866 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.866523'}
+2025-04-04 09:15:16,934 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.934332'}
+2025-04-04 09:15:16,993 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:16.993519'}
+2025-04-04 09:15:17,035 - INFO - 1 change detected
+2025-04-04 09:15:17,074 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.074070'}
+2025-04-04 09:15:17,167 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.166140'}
+2025-04-04 09:15:17,235 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.235456'}
+2025-04-04 09:15:17,297 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.297700'}
+2025-04-04 09:15:17,385 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.385356'}
+2025-04-04 09:15:17,388 - INFO - 1 change detected
+2025-04-04 09:15:17,436 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.436666'}
+2025-04-04 09:15:17,512 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.512057'}
+2025-04-04 09:15:17,581 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.581776'}
+2025-04-04 09:15:17,642 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.642496'}
+2025-04-04 09:15:17,703 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.702981'}
+2025-04-04 09:15:17,742 - INFO - 1 change detected
+2025-04-04 09:15:17,793 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.793064'}
+2025-04-04 09:15:17,882 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.882845'}
+2025-04-04 09:15:17,980 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:17.980864'}
+2025-04-04 09:15:18,054 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.054295'}
+2025-04-04 09:15:18,093 - INFO - 1 change detected
+2025-04-04 09:15:18,127 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.127726'}
+2025-04-04 09:15:18,242 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.242822'}
+2025-04-04 09:15:18,311 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.311872'}
+2025-04-04 09:15:18,380 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.380226'}
+2025-04-04 09:15:18,447 - INFO - 1 change detected
+2025-04-04 09:15:18,484 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.483901'}
+2025-04-04 09:15:18,567 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.567776'}
+2025-04-04 09:15:18,642 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.642589'}
+2025-04-04 09:15:18,716 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.716473'}
+2025-04-04 09:15:18,801 - INFO - 1 change detected
+2025-04-04 09:15:18,804 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.804571'}
+2025-04-04 09:15:18,872 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.872988'}
+2025-04-04 09:15:18,963 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:18.963998'}
+2025-04-04 09:15:19,049 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.049705'}
+2025-04-04 09:15:19,142 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.142095'}
+2025-04-04 09:15:19,154 - INFO - 1 change detected
+2025-04-04 09:15:19,240 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.240390'}
+2025-04-04 09:15:19,334 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.334024'}
+2025-04-04 09:15:19,437 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.437768'}
+2025-04-04 09:15:19,508 - INFO - 1 change detected
+2025-04-04 09:15:19,523 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.523663'}
+2025-04-04 09:15:19,610 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.610980'}
+2025-04-04 09:15:19,697 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.697583'}
+2025-04-04 09:15:19,788 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.788548'}
+2025-04-04 09:15:19,864 - INFO - 1 change detected
+2025-04-04 09:15:19,888 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:19.888421'}
+2025-04-04 09:15:20,001 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:20.001337'}
+2025-04-04 09:15:20,091 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:20.091147'}
+2025-04-04 09:15:20,221 - INFO - 1 change detected
+2025-04-04 09:15:20,256 - INFO - data received{'type': 'NPK', 'ref': 'POTO#0001', 'data': {'P': 45.0, 'N': 80.0, 'K': 60.0}, 'timestamp': '2025-04-04T09:15:20.256939'}
+2025-04-04 09:15:20,783 - INFO - 1 change detected
+2025-04-04 09:15:25,443 - INFO - 5 changes detected
+2025-04-04 09:15:27,973 - INFO - 1 change detected
+2025-04-04 09:15:28,379 - INFO - 3 changes detected
+2025-04-04 09:15:28,731 - INFO - 2 changes detected
+2025-04-04 09:15:29,088 - INFO - 2 changes detected
+2025-04-04 09:15:29,493 - INFO - 2 changes detected
+2025-04-04 09:15:29,861 - INFO - 5 changes detected
