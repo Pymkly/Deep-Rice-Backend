@@ -10,3 +10,7 @@
 /mongo_data/
 *.pyc
 /deep-rice.log
+*.log
+*.wt
+*.interim
+deep-rice.log
