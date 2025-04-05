@@ -30,6 +30,8 @@ async def web_socket(_websocket: WebSocket, id: int):
         active_connections[id].append(_websocket)
     except KeyError:
         active_connections[id] = [_websocket]
+    data = monitoring_manager.collect_last(id)
+    await _websocket.send_text(json.dumps(data))
     try:
         while True:
             # Garde la connexion active
