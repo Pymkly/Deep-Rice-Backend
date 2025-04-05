@@ -9,4 +9,8 @@
 /tensorflow_env/
 /mongo_data/
 *.pyc
-/mongo_data/
+/deep-rice.log
+*.log
+*.wt
+*.interim
+deep-rice.log

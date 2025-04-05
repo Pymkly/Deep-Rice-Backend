@@ -43,6 +43,7 @@ async def update_client_data():
     print("updated")
     data = monitoring_manager.collect_last(1)
     print(data)
+
     for _websocket in active_connections:
         await _websocket.send_text(json.dumps(data))
         # t = 1 if t == 0 else 0
