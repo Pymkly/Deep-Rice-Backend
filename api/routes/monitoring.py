@@ -9,7 +9,7 @@ router = APIRouter()
 monitoring_manager = MonitoringManager()
 # client, db = get_mongo_db()
 
-active_connections = []
+active_connections = {}
 
 fake_sensor_data = [
     {
@@ -24,16 +24,18 @@ fake_sensor_data = [
 t = 0
 import json
 @router.websocket("/monitoring")
-async def web_socket(_websocket: WebSocket):
+async def web_socket(_websocket: WebSocket, id: int):
     await _websocket.accept()
-    active_connections.append(_websocket)
-
+    try :
+        active_connections[id].append(_websocket)
+    except KeyError:
+        active_connections[id] = [_websocket]
     try:
         while True:
             # Garde la connexion active
             await _websocket.receive_text()
     except WebSocketDisconnect:
-        active_connections.remove(_websocket)
+        active_connections[id].remove(_websocket)
         print("Client déconnecté.")
 
 
@@ -41,10 +43,10 @@ async def web_socket(_websocket: WebSocket):
 async def update_client_data():
     global t
     print("updated")
-    data = monitoring_manager.collect_last(1)
-    print(data)
-
-    for _websocket in active_connections:
-        await _websocket.send_text(json.dumps(data))
+    for _poto_id in active_connections.keys():
+        data = monitoring_manager.collect_last(_poto_id)
+        print(data)
+        for _websocket in active_connections[_poto_id]:
+            await _websocket.send_text(json.dumps(data))
         # t = 1 if t == 0 else 0
 
