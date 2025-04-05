@@ -1,2 +1,0 @@
-{"t":{"$date":"2025-03-25T05:12:05.719Z"},"s":"I","c":"MONGOSH","id":1000000005,"ctx":"config","msg":"User updated"}
-{"t":{"$date":"2025-03-25T05:12:05.791Z"},"s":"I","c":"MONGOSH","id":1000000048,"ctx":"config","msg":"Loading global configuration file","attr":{"filename":"/etc/mongosh.conf","found":false}}
