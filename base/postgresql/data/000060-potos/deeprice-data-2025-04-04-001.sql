@@ -16,3 +16,21 @@ VALUES (
   '2025-03-25 11:42:30.423594',
   'POTO#0002'
 );
+INSERT INTO potos (id, parcel_id, title, global_location, created_at, ref)
+VALUES (
+  3,
+  1,
+  'Poto 3',
+  '0101000020E61000001AE81609CF0533C084C51DBE2EC44740',
+  '2025-03-25 11:42:30.423594',
+  'POTO#0003'
+);
+INSERT INTO potos (id, parcel_id, title, global_location, created_at, ref)
+VALUES (
+  4,
+  2,
+  'Poto 4',
+  '0101000020E61000008F3748EA790533C0143EAAC346C44740',
+  '2025-03-25 11:42:30.423594',
+  'POTO#0004'
+);
