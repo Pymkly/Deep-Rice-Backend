@@ -1,9 +1,16 @@
 from fastapi import FastAPI, HTTPException
+from api.routes.water_routes import router as water_router
 import uvicorn
 
 from pydantic import BaseModel, PrivateAttr, Field, PositiveFloat, computed_field
 
-app = FastAPI()
+app = FastAPI(
+    title="Deep Rice Backend 🌾",
+    description="API de prédiction et de gestion de l’eau pour la riziculture",
+    version="1.0.0"
+)
+
+app.include_router(water_router)
 
 
 class Item(BaseModel):
@@ -22,6 +29,7 @@ items = {
     2: Item(name="item 2", price=3.0),
     3: Item(name="item 3", price=5.0, tax=0.05)
 }
+
 
 
 @app.get("/")

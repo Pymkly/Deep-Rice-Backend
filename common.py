@@ -88,12 +88,36 @@ def persist_model(model, path):
         pickle.dump(model, file)
     print(f"Done")
 
+# def load_model(path):
+#     print(f"Loading the model from {path}")
+#     with open(path, "rb") as file:
+#         model = pickle.load(file)
+#     print(f"Done")
+#     return model
 def load_model(path):
+    """
+    Charge un modèle depuis un fichier pickle.
+    Gère le cas où le fichier n'existe pas (mode démo).
+    """
     print(f"Loading the model from {path}")
-    with open(path, "rb") as file:
-        model = pickle.load(file)
-    print(f"Done")
-    return model
+    
+    # ✅ VÉRIFICATION SI LE FICHIER EXISTE
+    if not os.path.exists(path):
+        print(f"⚠️ ATTENTION: Modèle non trouvé: {path}")
+        print(f"⚠️ Le module disease fonctionnera en mode démo/dégradé")
+        print(f"⚠️ Pour activer les prédictions, placez le modèle à: {path}")
+        return None  # Retourne None au lieu de crasher
+    
+    try:
+        with open(path, "rb") as file:
+            model = pickle.load(file)
+        print(f"✅ Modèle chargé avec succès")
+        return model
+    except Exception as e:
+        print(f"❌ Erreur lors du chargement du modèle: {e}")
+        print(f"⚠️ Le module disease fonctionnera en mode démo/dégradé")
+        return None
+
 
 
 def preprocess_image_for_prediction(image_path, img_size=IMG_SIZE):

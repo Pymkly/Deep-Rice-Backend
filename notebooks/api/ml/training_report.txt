@@ -1,0 +1,29 @@
+
+RAPPORT D'ENTRAÎNEMENT - 2025-11-02 15:02
+
+📊 DONNÉES:
+   - Train: 700 échantillons
+   - Val:   150 échantillons
+   - Test:  150 échantillons
+
+🌲 RANDOM FOREST:
+   - MAE Test:  2.65 mm/jour
+   - RMSE Test: 3.93 mm/jour
+   - R² Test:   0.9771
+
+🧠 LSTM:
+   - MAE Test:  6.87 mm/jour
+   - RMSE Test: 8.79 mm/jour
+   - R² Test:   0.8852
+
+🏆 MEILLEUR MODÈLE: Random Forest
+
+📁 FICHIERS GÉNÉRÉS:
+   - api/ml/water_model.h5 (LSTM - À utiliser dans l'API)
+   - api/ml/water_model_rf.pkl (Random Forest)
+   - api/ml/water_scaler.pkl (Normalisation)
+   - api/ml/eda_analysis.png
+   - api/ml/training_curves.png
+   - api/ml/predictions_comparison.png
+
+✅ Le modèle est prêt à être utilisé dans l'API FastAPI !

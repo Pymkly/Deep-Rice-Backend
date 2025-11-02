@@ -1,0 +1,471 @@
+"""
+NOTEBOOK D'ENTRAÎNEMENT - MODÈLE DE PRÉDICTION DES BESOINS EN EAU
+Deep Rice - Water Management Module
+
+Ce notebook entraîne deux modèles :
+1. LSTM (Deep Learning) - Pour les séries temporelles
+2. Random Forest (Baseline) - Pour comparaison
+
+Fichier: notebooks/train_water_model.ipynb (ou .py)
+"""
+
+# ============================================================================
+# IMPORTS
+# ============================================================================
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
+import joblib
+import os
+from datetime import datetime
+
+# Configuration
+plt.style.use('seaborn-v0_8-darkgrid')
+sns.set_palette("husl")
+
+print("✅ Imports OK")
+print(f"TensorFlow version: {tf.__version__}")
+print(f"Numpy version: {np.__version__}")
+print(f"Pandas version: {pd.__version__}")
+
+# ============================================================================
+# 1. CHARGEMENT DES DONNÉES
+# ============================================================================
+
+print("\n" + "="*60)
+print("📂 CHARGEMENT DES DONNÉES")
+print("="*60)
+
+# Chemins
+DATA_DIR = "data/water_training_split"
+MODEL_DIR = "api/ml"
+
+# Créer le dossier de sortie si besoin
+os.makedirs(MODEL_DIR, exist_ok=True)
+
+# Chargement
+train_df = pd.read_csv(f"{DATA_DIR}/train.csv")
+val_df = pd.read_csv(f"{DATA_DIR}/val.csv")
+test_df = pd.read_csv(f"{DATA_DIR}/test.csv")
+
+print(f"✓ Train: {train_df.shape[0]} échantillons")
+print(f"✓ Val:   {val_df.shape[0]} échantillons")
+print(f"✓ Test:  {test_df.shape[0]} échantillons")
+
+# Affichage des premières lignes
+print("\n📊 Aperçu des données (train):")
+print(train_df.head())
+
+# ============================================================================
+# 2. ANALYSE EXPLORATOIRE (EDA)
+# ============================================================================
+
+print("\n" + "="*60)
+print("📊 ANALYSE EXPLORATOIRE")
+print("="*60)
+
+# Statistiques descriptives
+print("\n📈 Statistiques de la variable cible (water_need_mm_per_day):")
+print(train_df['water_need_mm_per_day'].describe())
+
+# Distribution de la cible
+plt.figure(figsize=(12, 4))
+
+plt.subplot(1, 3, 1)
+plt.hist(train_df['water_need_mm_per_day'], bins=30, edgecolor='black', alpha=0.7)
+plt.xlabel('Besoins en eau (mm/jour)')
+plt.ylabel('Fréquence')
+plt.title('Distribution des besoins en eau')
+
+plt.subplot(1, 3, 2)
+plt.boxplot([
+    train_df[train_df['growth_stage']=='germination']['water_need_mm_per_day'],
+    train_df[train_df['growth_stage']=='vegetative']['water_need_mm_per_day'],
+    train_df[train_df['growth_stage']=='reproductive']['water_need_mm_per_day'],
+    train_df[train_df['growth_stage']=='maturation']['water_need_mm_per_day']
+])
+plt.xticks([1, 2, 3, 4], ['Germination', 'Végétatif', 'Reproductif', 'Maturation'], rotation=45)
+plt.ylabel('Besoins en eau (mm/jour)')
+plt.title('Besoins selon stade de croissance')
+
+plt.subplot(1, 3, 3)
+plt.scatter(train_df['temperature_celsius'], train_df['water_need_mm_per_day'], alpha=0.3)
+plt.xlabel('Température (°C)')
+plt.ylabel('Besoins en eau (mm/jour)')
+plt.title('Température vs Besoins en eau')
+
+plt.tight_layout()
+plt.savefig(f'{MODEL_DIR}/eda_analysis.png', dpi=150)
+print(f"✓ Graphiques sauvegardés: {MODEL_DIR}/eda_analysis.png")
+
+# Matrice de corrélation
+print("\n🔗 Corrélations avec la variable cible:")
+numerical_features = ['temperature_celsius', 'humidity_percent', 'rainfall_mm', 
+                      'evapotranspiration_mm', 'wind_speed_kmh', 'soil_moisture_percent']
+correlations = train_df[numerical_features + ['water_need_mm_per_day']].corr()['water_need_mm_per_day'].sort_values(ascending=False)
+print(correlations)
+
+# ============================================================================
+# 3. PRÉPARATION DES DONNÉES
+# ============================================================================
+
+print("\n" + "="*60)
+print("🔧 PRÉPARATION DES DONNÉES")
+print("="*60)
+
+# Features à utiliser
+NUMERICAL_FEATURES = [
+    'temperature_celsius',
+    'humidity_percent', 
+    'rainfall_mm',
+    'evapotranspiration_mm',
+    'wind_speed_kmh',
+    'soil_moisture_percent'
+]
+
+CATEGORICAL_FEATURES = [
+    'soil_type_encoded',
+    'growth_stage_encoded',
+    'irrigation_method_encoded'
+]
+
+ALL_FEATURES = NUMERICAL_FEATURES + CATEGORICAL_FEATURES
+TARGET = 'water_need_mm_per_day'
+
+# Extraction X et y
+X_train = train_df[ALL_FEATURES].values
+y_train = train_df[TARGET].values
+
+X_val = val_df[ALL_FEATURES].values
+y_val = val_df[TARGET].values
+
+X_test = test_df[ALL_FEATURES].values
+y_test = test_df[TARGET].values
+
+print(f"✓ X_train shape: {X_train.shape}")
+print(f"✓ X_val shape: {X_val.shape}")
+print(f"✓ X_test shape: {X_test.shape}")
+
+# Normalisation (important pour les réseaux de neurones)
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_val_scaled = scaler.transform(X_val)
+X_test_scaled = scaler.transform(X_test)
+
+# Sauvegarder le scaler
+joblib.dump(scaler, f'{MODEL_DIR}/water_scaler.pkl')
+print(f"✓ Scaler sauvegardé: {MODEL_DIR}/water_scaler.pkl")
+
+# ============================================================================
+# 4. MODÈLE 1 : RANDOM FOREST (BASELINE)
+# ============================================================================
+
+print("\n" + "="*60)
+print("🌲 ENTRAÎNEMENT RANDOM FOREST")
+print("="*60)
+
+# Entraînement
+rf_model = RandomForestRegressor(
+    n_estimators=100,
+    max_depth=15,
+    min_samples_split=5,
+    min_samples_leaf=2,
+    random_state=42,
+    n_jobs=-1,
+    verbose=1
+)
+
+print("⏳ Entraînement en cours...")
+rf_model.fit(X_train, y_train)
+
+# Prédictions
+y_train_pred_rf = rf_model.predict(X_train)
+y_val_pred_rf = rf_model.predict(X_val)
+y_test_pred_rf = rf_model.predict(X_test)
+
+# Évaluation
+def evaluate_model(y_true, y_pred, set_name=""):
+    mae = mean_absolute_error(y_true, y_pred)
+    rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+    r2 = r2_score(y_true, y_pred)
+    
+    print(f"\n📊 Métriques {set_name}:")
+    print(f"   MAE:  {mae:.2f} mm/jour")
+    print(f"   RMSE: {rmse:.2f} mm/jour")
+    print(f"   R²:   {r2:.4f}")
+    
+    return {'mae': mae, 'rmse': rmse, 'r2': r2}
+
+rf_train_metrics = evaluate_model(y_train, y_train_pred_rf, "Train RF")
+rf_val_metrics = evaluate_model(y_val, y_val_pred_rf, "Validation RF")
+rf_test_metrics = evaluate_model(y_test, y_test_pred_rf, "Test RF")
+
+# Importance des features
+feature_importance = pd.DataFrame({
+    'feature': ALL_FEATURES,
+    'importance': rf_model.feature_importances_
+}).sort_values('importance', ascending=False)
+
+print("\n🔍 Importance des features (Random Forest):")
+print(feature_importance)
+
+# Sauvegarder le modèle
+joblib.dump(rf_model, f'{MODEL_DIR}/water_model_rf.pkl')
+print(f"✓ Modèle RF sauvegardé: {MODEL_DIR}/water_model_rf.pkl")
+
+# ============================================================================
+# 5. MODÈLE 2 : LSTM (DEEP LEARNING)
+# ============================================================================
+
+print("\n" + "="*60)
+print("🧠 ENTRAÎNEMENT LSTM")
+print("="*60)
+
+# Pour LSTM, on doit reshaper les données (samples, timesteps, features)
+# Ici on utilise timesteps=1 car chaque prédiction est indépendante
+X_train_lstm = X_train_scaled.reshape((X_train_scaled.shape[0], 1, X_train_scaled.shape[1]))
+X_val_lstm = X_val_scaled.reshape((X_val_scaled.shape[0], 1, X_val_scaled.shape[1]))
+X_test_lstm = X_test_scaled.reshape((X_test_scaled.shape[0], 1, X_test_scaled.shape[1]))
+
+print(f"✓ X_train_lstm shape: {X_train_lstm.shape}")
+
+# Architecture du modèle
+def create_lstm_model(input_shape):
+    model = keras.Sequential([
+        # Couche LSTM
+        layers.LSTM(64, activation='relu', return_sequences=True, input_shape=input_shape),
+        layers.Dropout(0.2),
+        
+        layers.LSTM(32, activation='relu'),
+        layers.Dropout(0.2),
+        
+        # Couches denses
+        layers.Dense(32, activation='relu'),
+        layers.Dropout(0.1),
+        
+        layers.Dense(16, activation='relu'),
+        
+        # Sortie
+        layers.Dense(1)
+    ])
+    
+    model.compile(
+        optimizer=keras.optimizers.Adam(learning_rate=0.001),
+        loss='mse',
+        metrics=['mae']
+    )
+    
+    return model
+
+# Créer le modèle
+lstm_model = create_lstm_model((X_train_lstm.shape[1], X_train_lstm.shape[2]))
+
+print("\n📐 Architecture du modèle:")
+lstm_model.summary()
+
+# Callbacks
+callbacks = [
+    EarlyStopping(
+        monitor='val_loss',
+        patience=20,
+        restore_best_weights=True,
+        verbose=1
+    ),
+    ModelCheckpoint(
+        filepath=f'{MODEL_DIR}/water_model_lstm_best.h5',
+        monitor='val_loss',
+        save_best_only=True,
+        verbose=1
+    ),
+    ReduceLROnPlateau(
+        monitor='val_loss',
+        factor=0.5,
+        patience=10,
+        min_lr=1e-6,
+        verbose=1
+    )
+]
+
+# Entraînement
+print("\n⏳ Entraînement en cours...")
+history = lstm_model.fit(
+    X_train_lstm, y_train,
+    validation_data=(X_val_lstm, y_val),
+    epochs=100,
+    batch_size=32,
+    callbacks=callbacks,
+    verbose=1
+)
+
+# Sauvegarder le modèle final
+lstm_model.save(f'{MODEL_DIR}/water_model.h5')
+print(f"✓ Modèle LSTM sauvegardé: {MODEL_DIR}/water_model.h5")
+
+# Prédictions
+y_train_pred_lstm = lstm_model.predict(X_train_lstm).flatten()
+y_val_pred_lstm = lstm_model.predict(X_val_lstm).flatten()
+y_test_pred_lstm = lstm_model.predict(X_test_lstm).flatten()
+
+# Évaluation
+lstm_train_metrics = evaluate_model(y_train, y_train_pred_lstm, "Train LSTM")
+lstm_val_metrics = evaluate_model(y_val, y_val_pred_lstm, "Validation LSTM")
+lstm_test_metrics = evaluate_model(y_test, y_test_pred_lstm, "Test LSTM")
+
+# ============================================================================
+# 6. COMPARAISON DES MODÈLES
+# ============================================================================
+
+print("\n" + "="*60)
+print("📊 COMPARAISON DES MODÈLES")
+print("="*60)
+
+comparison = pd.DataFrame({
+    'Modèle': ['Random Forest', 'LSTM'],
+    'MAE Test': [rf_test_metrics['mae'], lstm_test_metrics['mae']],
+    'RMSE Test': [rf_test_metrics['rmse'], lstm_test_metrics['rmse']],
+    'R² Test': [rf_test_metrics['r2'], lstm_test_metrics['r2']]
+})
+
+print(comparison.to_string(index=False))
+
+# Visualisation de la courbe d'apprentissage LSTM
+plt.figure(figsize=(12, 4))
+
+plt.subplot(1, 2, 1)
+plt.plot(history.history['loss'], label='Train Loss')
+plt.plot(history.history['val_loss'], label='Val Loss')
+plt.xlabel('Epoch')
+plt.ylabel('MSE Loss')
+plt.title('Courbe d\'apprentissage - Loss')
+plt.legend()
+plt.grid(True)
+
+plt.subplot(1, 2, 2)
+plt.plot(history.history['mae'], label='Train MAE')
+plt.plot(history.history['val_mae'], label='Val MAE')
+plt.xlabel('Epoch')
+plt.ylabel('MAE (mm/jour)')
+plt.title('Courbe d\'apprentissage - MAE')
+plt.legend()
+plt.grid(True)
+
+plt.tight_layout()
+plt.savefig(f'{MODEL_DIR}/training_curves.png', dpi=150)
+print(f"✓ Courbes sauvegardées: {MODEL_DIR}/training_curves.png")
+
+# Prédictions vs Réalité
+plt.figure(figsize=(12, 5))
+
+plt.subplot(1, 2, 1)
+plt.scatter(y_test, y_test_pred_rf, alpha=0.5, s=10)
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', lw=2)
+plt.xlabel('Valeurs réelles (mm/jour)')
+plt.ylabel('Prédictions RF (mm/jour)')
+plt.title(f'Random Forest - Test Set (R²={rf_test_metrics["r2"]:.3f})')
+plt.grid(True)
+
+plt.subplot(1, 2, 2)
+plt.scatter(y_test, y_test_pred_lstm, alpha=0.5, s=10)
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', lw=2)
+plt.xlabel('Valeurs réelles (mm/jour)')
+plt.ylabel('Prédictions LSTM (mm/jour)')
+plt.title(f'LSTM - Test Set (R²={lstm_test_metrics["r2"]:.3f})')
+plt.grid(True)
+
+plt.tight_layout()
+plt.savefig(f'{MODEL_DIR}/predictions_comparison.png', dpi=150)
+print(f"✓ Comparaison sauvegardée: {MODEL_DIR}/predictions_comparison.png")
+
+# ============================================================================
+# 7. TEST RAPIDE DU MODÈLE
+# ============================================================================
+
+print("\n" + "="*60)
+print("🧪 TEST RAPIDE DU MODÈLE")
+print("="*60)
+
+# Charger le modèle sauvegardé
+loaded_model = keras.models.load_model(f'{MODEL_DIR}/water_model.h5')
+loaded_scaler = joblib.load(f'{MODEL_DIR}/water_scaler.pkl')
+
+# Exemple de prédiction
+sample = {
+    'temperature_celsius': 28.5,
+    'humidity_percent': 75.0,
+    'rainfall_mm': 5.0,
+    'evapotranspiration_mm': 4.5,
+    'wind_speed_kmh': 12.0,
+    'soil_moisture_percent': 65.0,
+    'soil_type_encoded': 0,  # clay
+    'growth_stage_encoded': 1,  # vegetative
+    'irrigation_method_encoded': 1  # sri
+}
+
+sample_array = np.array([[sample[f] for f in ALL_FEATURES]])
+sample_scaled = loaded_scaler.transform(sample_array)
+sample_lstm = sample_scaled.reshape((1, 1, sample_scaled.shape[1]))
+
+prediction = loaded_model.predict(sample_lstm)[0][0]
+
+print(f"\n📊 Exemple de prédiction:")
+print(f"   Température: {sample['temperature_celsius']}°C")
+print(f"   Humidité: {sample['humidity_percent']}%")
+print(f"   Pluie: {sample['rainfall_mm']} mm")
+print(f"   → Besoin en eau prédit: {prediction:.2f} mm/jour")
+
+# ============================================================================
+# 8. RAPPORT FINAL
+# ============================================================================
+
+print("\n" + "="*60)
+print("✅ ENTRAÎNEMENT TERMINÉ")
+print("="*60)
+
+report = f"""
+RAPPORT D'ENTRAÎNEMENT - {datetime.now().strftime('%Y-%m-%d %H:%M')}
+
+📊 DONNÉES:
+   - Train: {len(train_df)} échantillons
+   - Val:   {len(val_df)} échantillons
+   - Test:  {len(test_df)} échantillons
+
+🌲 RANDOM FOREST:
+   - MAE Test:  {rf_test_metrics['mae']:.2f} mm/jour
+   - RMSE Test: {rf_test_metrics['rmse']:.2f} mm/jour
+   - R² Test:   {rf_test_metrics['r2']:.4f}
+
+🧠 LSTM:
+   - MAE Test:  {lstm_test_metrics['mae']:.2f} mm/jour
+   - RMSE Test: {lstm_test_metrics['rmse']:.2f} mm/jour
+   - R² Test:   {lstm_test_metrics['r2']:.4f}
+
+🏆 MEILLEUR MODÈLE: {'LSTM' if lstm_test_metrics['mae'] < rf_test_metrics['mae'] else 'Random Forest'}
+
+📁 FICHIERS GÉNÉRÉS:
+   - {MODEL_DIR}/water_model.h5 (LSTM - À utiliser dans l'API)
+   - {MODEL_DIR}/water_model_rf.pkl (Random Forest)
+   - {MODEL_DIR}/water_scaler.pkl (Normalisation)
+   - {MODEL_DIR}/eda_analysis.png
+   - {MODEL_DIR}/training_curves.png
+   - {MODEL_DIR}/predictions_comparison.png
+
+✅ Le modèle est prêt à être utilisé dans l'API FastAPI !
+"""
+
+print(report)
+
+# Sauvegarder le rapport
+with open(f'{MODEL_DIR}/training_report.txt', 'w', encoding='utf-8') as f:
+    f.write(report)
+
+print(f"\n📄 Rapport sauvegardé: {MODEL_DIR}/training_report.txt")
+print("\n🎉 TOUT EST PRÊT ! Relance ton API pour utiliser le nouveau modèle.")

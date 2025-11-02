@@ -12,13 +12,18 @@ from api.routes.restricted import router as restricted_router
 from api.routes.rasp import router as rasp_router
 from api.routes.monitoring import router as ws_router
 from api.routes.clientmonitoring import router as client_monitoring_router
+from api.routes.water_routes import router as water_router   
 
 logging.basicConfig(
     filename='deep-rice.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
-app = FastAPI()
+app = FastAPI(
+    title="Deep Rice API",
+    description="API pour la gestion intelligente des rizières",
+    version="1.0.0"
+)
 
 app.include_router(rag_router, prefix="/api")
 app.include_router(upload_router, prefix="/api")
@@ -29,6 +34,7 @@ app.include_router(restricted_router, prefix="/su")
 app.include_router(rasp_router, prefix="/rasp")
 app.include_router(ws_router, prefix="/ws")
 app.include_router(client_monitoring_router, prefix="/api")
+app.include_router(water_router, prefix="/api")
 
 class QueryModel(BaseModel):
     query: str
@@ -36,6 +42,13 @@ class QueryModel(BaseModel):
 async def ping():
     return {"message": "pong"}
 
+@app.get("/")
+async def root():
+    return {
+        "message": "Deep Rice API",
+        "modules": ["disease_prediction", "water_management"],
+        "docs": "/docs"
+    }
 
 if __name__ == '__main__':
     uvicorn.run("app:app", host="0.0.0.0",
